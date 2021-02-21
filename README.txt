@@ -1,5 +1,5 @@
 === Definitely allow mobile zooming ===
-Contributors: kybernetikservices,Hinjiriyo
+Contributors: kybernetikservices, Hinjiriyo
 Donate link: https://www.paypal.com/donate?hosted_button_id=TT3Q3MT5Q4FQG
 Tags: mobile, zoom, zooming, scaling, viewport, metatag, smarthphones, meta tag, meta
 Requires at least: 1.2.0
