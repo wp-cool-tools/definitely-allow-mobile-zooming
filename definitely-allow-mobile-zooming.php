@@ -2,20 +2,20 @@
 /**
  *
  * @package   Definitely_allow_mobile_zooming
- * @author    Martin Stehle <shop@stehle-internet.de>
+ * @author    Kybernetik Services <wordpress@kybernetik.com.de>
  * @license   GPL-2.0+
- * @link      http://stehle-internet.de/
- * @copyright 2014 Martin Stehle
+ * @link      https://www.kybernetik-services.com
+ * @copyright Kybernetik Services
  *
  * @wordpress-plugin
  * Plugin Name:       Definitely allow mobile zooming
  * Plugin URI:        http://wordpress.org/plugins/definitely-allow-mobile-zooming/
  * Description:       This tiny plugin adds the viewport meta tag with zooming permission to give your users the ability to zoom in your website with mobile browsers.
- * Version:           1.4
+ * Version:           1.4.1
  * Requires at least: 1.2.0
  * Requires PHP:      5.2
- * Author:            Martin Stehle
- * Author URI:        http://stehle-internet.de/
+ * Author:            Kybernetik Services
+ * Author URI:        https://www.kybernetik-services.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
 */
