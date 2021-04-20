@@ -1,10 +1,10 @@
 === Definitely allow mobile zooming ===
 Contributors: kybernetikservices, Hinjiriyo
-Donate link: https://www.paypal.com/donate?hosted_button_id=TT3Q3MT5Q4FQG
+Donate link: https://www.paypal.com/donate?hosted_button_id=NSEQX73VHXKS8
 Tags: mobile, zoom, zooming, scaling, viewport, metatag, smarthphones, meta tag, meta
 Requires at least: 1.2.0
 Requires PHP: 5.2
-Tested up to: 5.6.1
+Tested up to: 5.7
 Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -60,7 +60,8 @@ The plugin does not collect any personal data, so it is ready for EU General Dat
 == Changelog ==
 
 = 1.4.1 =
-* Tested successfully with WordPress 5.6.1
+* Tested successfully with WordPress 5.6.2
+* Tested successfully with WordPress 5.7
 * new branding
 
 = 1.4 =
