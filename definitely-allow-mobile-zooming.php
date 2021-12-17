@@ -11,7 +11,7 @@
  * Plugin Name:       Definitely allow mobile zooming
  * Plugin URI:        http://wordpress.org/plugins/definitely-allow-mobile-zooming/
  * Description:       This tiny plugin adds the viewport meta tag with zooming permission to give your users the ability to zoom in your website with mobile browsers.
- * Version:           1.5.0
+ * Version:           1.6.0
  * Requires at least: 1.2.0
  * Requires PHP:      5.2
  * Author:            Kybernetik Services
@@ -32,6 +32,20 @@ function definitely_allow_mobile_zooming_add_viewport()
 
     }
     /*
+     * Set viewport for Flatsome
+     */
+    elseif ( class_exists( 'Flatsome_Default' ) ) {
+
+        // Remove Flatsome viewport
+        function definitely_allow_mobile_zooming_flatsome_remove_viewport() {
+            remove_action('wp_head','flatsome_viewport_meta', 1);
+        }
+        add_action( 'init', 'definitely_allow_mobile_zooming_flatsome_remove_viewport' );
+
+        // Add our viewport
+        add_action( 'wp_head', 'definitely_allow_mobile_zooming_default', 9999999 );
+    }
+    /*
      * Set viewport by default
      */
     else {
@@ -42,6 +56,7 @@ function definitely_allow_mobile_zooming_add_viewport()
 }
 
 function definitely_allow_mobile_zooming_default() {
+    print "\n";
     print '<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=0.1, maximum-scale=10.0">';
     print "\n";
 }

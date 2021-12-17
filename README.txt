@@ -5,7 +5,7 @@ Tags: mobile, zoom, zooming, scaling, viewport, metatag, smarthphones, meta tag,
 Requires at least: 1.2.0
 Requires PHP: 5.2
 Tested up to: 5.8
-Stable tag: 1.5.0
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,8 +27,8 @@ You just download this plugin and click to activate it. No options page, no sett
 
 This plugin does all the magic for you and your users zooming with your smartphone in your theme.
 
-Instead just adding a second viewport meta line in the header section of a page, I started with version 1.5.0 to add theme specific viewport replacement, if available.
-If you know theme which allows changes in the viewport by a filter, please write a commend in the [WordPress forum](http://wordpress.org/support/plugin/definitely-allow-mobile-zooming) and I will add the specific filter.
+Instead, just adding a second viewport meta line in the header section of a page, I started with version 1.5.0 to add theme specific viewport replacement, if available.
+If you know theme which allows changes in the viewport by a filter, please write a comment in the [WordPress forum](http://wordpress.org/support/plugin/definitely-allow-mobile-zooming) and I will add the specific filter.
 
 If you find yourself in trouble with this tiny plugin, don't hesitate to ask for [support](http://wordpress.org/support/plugin/definitely-allow-mobile-zooming).
 
@@ -62,10 +62,12 @@ The plugin does not collect any personal data, so it is ready for EU General Dat
 
 == Changelog ==
 
+= 1.6.0 =
+* added better viewport compatibility for Flatsome theme (thanks to @bramvds)
+
 = 1.5.0 =
 * added better viewport replacement for OceanWP theme
 * Tested successfully with WordPress 5.8
-
 
 = 1.4.1 =
 * Tested successfully with WordPress 5.6.2
