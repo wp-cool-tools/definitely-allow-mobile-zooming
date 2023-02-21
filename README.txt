@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/donate?hosted_button_id=NSEQX73VHXKS8
 Tags: mobile, zoom, zooming, scaling, viewport, metatag, smarthphones, meta tag, meta
 Requires at least: 1.2.0
 Requires PHP: 5.2
-Tested up to: 6.0
+Tested up to: 6.2
 Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
