@@ -1,19 +1,19 @@
 === Definitely allow mobile zooming ===
 Contributors: kybernetikservices, Hinjiriyo
 Donate link: https://www.paypal.com/donate?hosted_button_id=NSEQX73VHXKS8
-Tags: mobile, zoom, zooming, scaling, viewport, metatag, smarthphones, meta tag, meta
+Tags: mobile, zoom, zooming, scaling, viewport, metatag, smartphones, meta tag, meta
 Requires at least: 1.2.0
 Requires PHP: 5.2
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This tiny plugin adds silently the viewport meta tag with zooming permission to give your users the ability to zoom in your website with mobile browsers.
+This tiny plugin adds silently the viewport meta tag with zooming permission to allow your users to zoom in your website with mobile browsers.
 
 == Description ==
 
-This tiny plugin adds silently the viewport meta tag with zooming permission to give your users the ability to zoom in your website with mobile browsers.
+This tiny plugin adds silently the viewport meta tag with zooming permission to allow your users to zoom in your website with mobile browsers.
 
 If you find yourself in trouble not to be allowed to zoom with your favourite smartphone in your theme,
 
@@ -66,8 +66,7 @@ The plugin does not collect any personal data, so it is ready for EU General Dat
 
 = 1.6.0 =
 * added better viewport compatibility for Flatsome theme (thanks to @bramvds)
-* Tested successfully up to WordPress 6.3
-* Tested successfully up to WordPress 6.4
+* Tested successfully up to WordPress 6.3-6.6
 
 = 1.5.0 =
 * added better viewport replacement for OceanWP theme
