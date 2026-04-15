@@ -15,9 +15,7 @@ This tiny plugin adds silently the viewport meta tag with zooming permission to 
 
 This tiny plugin adds silently the viewport meta tag with zooming permission to allow your users to zoom in your website with mobile browsers.
 
-If you find yourself in trouble not to be allowed to zoom with your favourite smartphone in your theme,
-
-You can take this tiny plugin just to get the shiny magic zooming with your smartphone in your theme.
+If you find yourself in trouble not to be allowed to zoom with your favourite smartphone in your theme, you can take this tiny plugin just to get the shiny magic zooming with your smartphone in your theme.
 
 There are themes which are "responsive". But a few of them are cruel. They do not let you zoom in-to your theme.
 
