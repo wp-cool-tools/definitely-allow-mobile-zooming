@@ -1,7 +1,7 @@
 === Definitely allow mobile zooming ===
 Contributors: kybernetikservices,wpcooltools, Hinjiriyo
 Donate link: https://www.paypal.com/donate?hosted_button_id=NSEQX73VHXKS8
-Tags: mobile, zoom, zooming, scaling, viewport, metatag, smartphones, meta tag, meta
+Tags: mobile, zoom, viewport, accessibility, responsive
 Requires at least: 1.2.0
 Requires PHP: 5.2
 Tested up to: 7.0
@@ -61,6 +61,16 @@ The plugin does not collect any personal data, so it is ready for EU General Dat
 2. Extract the `definitely-allow-mobile-zooming` directory to your computer
 3. Upload the `definitely-allow-mobile-zooming` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
+
+== Frequently Asked Questions ==
+
+= Does this plugin add a settings page? =
+
+No. The plugin works immediately after activation and does not require any configuration.
+
+= What does the plugin change? =
+
+It adds a viewport meta tag or a theme-specific replacement so mobile browsers can zoom the site again.
 
 == Changelog ==
 
@@ -148,4 +158,3 @@ Successfully tested with WordPress 4.1
 
 = 1.0.1 =
 Successfully tested with WordPress 4.0
-
