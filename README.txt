@@ -5,8 +5,8 @@ Tags: mobile, zoom, viewport, accessibility, responsive
 Requires at least: 1.2.0
 Requires PHP: 5.2
 Tested up to: 7.1
-Stable tag: 1.6.0
-License: GPLv2 or later
+Stable tag: 1.6.1
+License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This tiny plugin adds silently the viewport meta tag with zooming permission to allow your users to zoom in your website with mobile browsers.
@@ -71,6 +71,11 @@ No. The plugin works immediately after activation and does not require any confi
 It adds a viewport meta tag or a theme-specific replacement so mobile browsers can zoom the site again.
 
 == Changelog ==
+
+= 1.6.1 =
+* added license standard identifier
+* added direct File Access Prevention to index.php
+* code improvements
 
 = 1.6.0 =
 * added better viewport compatibility for Flatsome theme (thanks to @bramvds)
